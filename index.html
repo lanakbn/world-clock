@@ -13,26 +13,28 @@
   <body>
     <div class="container">
       <h1>World Clock</h1>
-      <select>
+      <select id="city">
         <option value="">Choose a city..</option>
-        <option value="">Geneva</option>
-        <option value="">London</option>
-        <option value="">Beirut</option>
-        <option value="">Tokyo</option>
+        <option value="Europe/Geneva">Geneva</option>
+        <option value="Europe/London">London</option>
+        <option value="Asia/Beirut">Beirut</option>
+        <option value="Asia/Tokyo">Tokyo</option>
       </select>
-      <div class="city" id="geneva">
-        <div>
-          <h2>Geneva 🇨🇭</h2>
-          <div class="date">October 5th 2025</div>
+      <div class="cities" id="cities">
+        <div class="city" id="geneva">
+          <div>
+            <h2>Geneva 🇨🇭</h2>
+            <div class="date">October 5th 2025</div>
+          </div>
+          <div class="time">9:32:15 <small>PM</small></div>
         </div>
-        <div class="time">9:32:15 <small>PM</small></div>
-      </div>
-      <div class="city" id="london">
-        <div>
-          <h2>London 🇬🇧</h2>
-          <div class="date">October 5th 2025</div>
+        <div class="city" id="london">
+          <div>
+            <h2>London 🇬🇧</h2>
+            <div class="date">October 5th 2025</div>
+          </div>
+          <div class="time">8:32:15 <small>PM</small></div>
         </div>
-        <div class="time">8:32:15 <small>PM</small></div>
       </div>
     </div>
     <footer>
